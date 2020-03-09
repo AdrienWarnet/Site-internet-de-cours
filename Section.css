@@ -1,0 +1,29 @@
+.gauche{
+	width: 15%; 
+	border: 1px inset;
+	padding : 10px;
+	text-align: justify ;
+	background-color: silver;
+}
+
+.titre{
+	font-size: 20px;
+	color: darkblue;
+	font-style: bold;
+}
+
+.textegauche{
+	font-family : arial ;
+	font-size : 15px;
+}
+
+.liste{ 	
+	font-family : arial ;
+	font-size : 15px;
+}	
+
+.titre2{ 
+	font-size: 	17px;
+	color : red;
+	font-style: italic;
+} 

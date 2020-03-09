@@ -1,0 +1,108 @@
+.gauche{
+	width: 17%; 
+	border: 3px inset;
+	padding : 10px;
+	text-align: justify ;
+	background-color: silver;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.titre{
+	font-size: 20px;
+	color: darkblue;
+	font-style: bold;
+	font-family:arial;
+}
+
+.textegauche{
+	font-family : arial ;
+	font-size : 15px;
+}
+
+.liste{ 	
+	font-family : arial ;
+	font-size : 15px;
+}	
+
+.titre2{ 
+	font-size: 	17px;
+	color : #a10000;
+	font-style: italic;
+} 
+
+
+.centre{ 
+	width: 70%;
+	display: inline-block; 
+	border: 3px ;
+    vertical-align: top;
+	border-style: outset;
+	box-shadow: 4px 4px 4px black;
+	
+}
+
+.ctitre{
+	text-align: center;
+	color: #6a0fb9;
+	font-family:arial;
+	font-size: 25px
+}
+.csoustitre{
+	color: #a10000;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline dotted;
+}
+.csoustitre2{
+	color: #037e21;
+	font-size: 17px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.ctexte{
+	font-family:Georgia, serif;
+	font-size: 15px;
+	
+}	
+
+.droite{ 
+	position:absolute;
+	vertical-align:top;
+	float: right;
+	width: 10%;
+	display: inline-block;    
+    border: 1px ;
+}
+
+.pub{
+	text-align: center;
+	
+}
+
+.ptexte{
+	text-align: centre;
+	font-family: arial;
+	text-align: center;
+}
+.footer{
+	text-align: center;
+	font-size: 17px;
+	font-family: arial;
+	color: #6a0fb9;
+	background-color:RGBa(102, 153, 255, 0.4);
+	padding:15px;
+;
+	
+}
+
+.bouton {
+	border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	background:#6a0fb9;
+	font:bold 13px Arial;
+	color:#fff;
+	text-decoration: none;
+	
+}

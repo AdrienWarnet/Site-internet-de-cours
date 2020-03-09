@@ -1,0 +1,108 @@
+body{
+    font-family: 'Source code pro',Calibri, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+
+nav li{
+    list-style-type: none;
+}
+.submenu{
+    display: none;
+    background-color: black;
+}
+
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav a{
+    display:  inline-block;
+    text-decoration: none;
+}
+nav > ul > li > a{
+    padding: 20px 30px;
+    color: #FFF;
+}
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;                  /** ici **/
+    left: 0px;
+    padding: 0px;
+    z-index: 100000;
+}
+.submenu li{
+    border-bottom: 1px solid #CCC;
+}
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: white;          
+    width: 270px;
+}
+.menu-histoire:hover{
+    border-top: 5px solid #32cd32;
+    background-color: RGBa(50,205,50,0.15);
+}
+.menu-maths:hover{
+    border-top: 5px solid #0070bb;
+    background-color: RGBa(000,112,192,0.15);
+}
+.menu-philo:hover{
+    border-top: 5px solid #000000;
+    background-color: RGBa(0,0,0,0.15);
+}
+.menu-chimie:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228,77,38,0.15);
+}
+.menu-geo:hover{
+    border-top: 5px solid #ffa500;
+    background-color: RGBa(255,165,0,0.15);
+}
+.menu-phys:hover{
+    border-top: 5px solid #8800ff;
+    background-color: RGBa(136,0,255,0.15);
+}
+nav > ul > li:hover a{
+    padding:  15px 30px;
+}
+nav{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.G{
+    background-color: RGB(255,165,0)
+}
+.H{
+    background-color: RGB(50,205,50);
+}
+.M{
+    background-color: RGB(000,112,192);
+}
+.P{
+    background-color: RGB(0,0,0)
+}
+.C{
+    background-color: RGB(228,77,38);
+}
+.Phy{
+    background-color: RGB(136,0,255);
+}

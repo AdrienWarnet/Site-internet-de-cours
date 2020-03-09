@@ -1,0 +1,12 @@
+.haut{
+    text-align: center;
+	font-size: large ;
+}
+.table{
+    border: 1px solid gray;
+    width: 100%;
+    text-align: center;
+}
+.logo{
+    height: 30%;
+}

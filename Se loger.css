@@ -1,0 +1,41 @@
+.style{
+	background-color: #ccccb3;
+}
+
+.text{
+	border: 5px  outset ;
+	margin-left: 35%;
+	margin-right: 35%;
+	text-align: justify;
+	color: #b30000;
+	background-color: white;
+	box-shadow: 4px 4px 4px black;
+	padding: 10px;
+}
+
+.align{
+	text-align:center;
+}
+
+
+.bouton {
+	border-radius:12px 0 12px 0;
+	background: #b30000;
+	border:none;
+	color:white;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	box-shadow:1px 1px 3px #999;
+	text-decoration: none;
+}
+
+.inscription {
+	margin-left: 30%;
+	width: 40%;
+	height: 50%;
+}
+
+.texteinscript{
+	text-align:center;
+	font-family: arial;
+}
